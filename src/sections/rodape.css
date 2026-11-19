@@ -13,9 +13,9 @@
 .rodape__elo:focus-visible::after { transform: scaleX(1); }
 .rodape__nome {
   display: flex; align-items: center; justify-content: center; margin-top: calc(36 * var(--su));
-  font: 900 18.8vw / 0.8 var(--f-display); text-transform: uppercase; white-space: nowrap;
+  font: 900 15.2vw / 0.8 var(--f-display); text-transform: uppercase; white-space: nowrap;
 }
-.vaga--rodape { display: block; flex: none; width: 0.84em; height: 0.84em; margin-left: 0.04em; }
+.vaga--rodape { display: block; flex: none; width: 0.82em; height: 0.82em; margin-left: 0.14em; }
 .rodape__direitos { margin-top: 14px; font-size: 13px; color: var(--apoio); }
 @media (max-width: 760px) {
   .rodape { padding-top: 40px; }
@@ -23,5 +23,5 @@
   .rodape__colunas p:not(.rotulo) { font-size: 15px; }
   .rodape__elo { padding: 11px 0; }
   .rodape__colunas p:has(.rodape__elo) { line-height: 1.2; }
-  .rodape__nome { margin-top: 30px; font-size: 17.5vw; }
+  .rodape__nome { margin-top: 30px; font-size: 14.2vw; }
 }
