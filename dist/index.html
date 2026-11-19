@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Academia Paes Landim · Teresina</title>
+  <meta name="description" content="Academia Paes Landim no Lourival Parente, Teresina. Metodologia de atendimento, musculação, funcional e aulas coletivas. Agende a sua aula experimental.">
+  <meta name="theme-color" content="#070707">
+  <link rel="icon" href="./marca.svg" type="image/svg+xml">
+  <!-- Primeira pintura: a cor de fundo do tema e o estilo crítico do hero vêm aqui, antes da folha do site (que vem em
+       <link> e segura a pintura até chegar; nunca pelo JS). ?tema=osso|brasa|cobalto|mono troca a paleta.
+       Os textos que entram por marco só se escondem com o JS no ar (classe .js): se ele não subir em 4 s, a trava
+       cai e a página aparece inteira. -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      var FUNDOS = { carvao: '#070707', mono: '#070707', osso: '#e9e6df', brasa: '#f01810', cobalto: '#1b3bff' };
+      var tema = new URLSearchParams(location.search).get('tema');
+      if (!FUNDOS[tema]) tema = 'carvao';
+      d.dataset.tema = tema;
+      d.style.backgroundColor = FUNDOS[tema];
+      document.querySelector('meta[name="theme-color"]').content = FUNDOS[tema];
+      d.classList.add('js');
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('reduzido');
+      setTimeout(function () { if (!window.__kiloViva) { d.classList.remove('js'); d.classList.add('sem-peca'); } }, 4000);
+    })();
+  </script>
+  <style>html{color:#f2f0ea;background:#070707}body{margin:0}.js .marco,.js .sobe{opacity:0}</style>
+  <!-- sem JavaScript: um anel desenhado no lugar do "O" que a peça 3D ocuparia -->
+  <noscript><style>.vaga--o,.vaga--rodape{border-radius:50%;box-shadow:inset 0 0 0 .24em}</style></noscript>
+  <script type="module" crossorigin src="./assets/index-B8kMN56j.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Ba-WzYTO.css">
+</head>
+<body>
+  <a class="pular" href="#sobre">Pular para o conteúdo</a>
+
+  <header class="barra">
+  <a class="barra__marca" href="#topo" aria-label="Academia Paes Landim, voltar ao início">
+    <svg class="barra__o" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="14" fill="none" stroke="var(--acento)" stroke-width="11"/></svg><span aria-hidden="true">Paes Landim</span>
+  </a>
+  <nav class="barra__links" aria-label="Seções">
+    <a href="#modalidades" data-secao="modalidades">Modalidades</a>
+    <a href="#estrutura" data-secao="estrutura">Estrutura</a>
+    <a href="#planos" data-secao="planos">Planos</a>
+    <a href="#horarios" data-secao="horarios">Horários</a>
+    <a href="#duvidas" data-secao="duvidas">Dúvidas</a>
+  </nav>
+  <a class="barra__cta" href="#contato">Aula experimental</a>
+</header>
+
+
+  <main>
+    <section class="hero" id="topo">
+  <div class="hero__palco">
+    <h1 class="hero__titulo">
+      <span class="mascara"><span class="sobe hero__l1" style="--i:0"><span>Um</span> <span>novo</span></span></span>
+      <span class="mascara"><span class="sobe" style="--i:1">Conceit<span class="vaga vaga--o" data-vaga="hero" data-forma="anilha" data-pose="-10 20 0"><span class="so-leitor">o</span></span></span></span>
+    </h1>
+    <div class="hero__pe">
+      <p class="hero__texto marco" style="--i:4">Academia com metodologia de atendimento no Lourival Parente, Teresina. Agende a sua aula experimental.</p>
+      <div class="hero__acoes marco" style="--i:5">
+        <a class="botao botao--cheio" href="#contato">Agendar aula experimental<svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        <a class="botao botao--linha" href="#planos">Ver planos</a>
+      </div>
+    </div>
+  </div>
+  <ul class="hero__fatos marco" style="--i:6">
+    <li>Lourival Parente <b>Teresina - PI</b></li>
+    <li>Horário <b>[preencher]</b></li>
+  </ul>
+</section>
+
+
+    <section class="manifesto secao" id="sobre">
+  <div class="miolo">
+    <h2 class="manifesto__texto" data-acende>
+      <span class="vaga vaga--capitular" data-vaga="manifesto" data-forma="anilha" data-pose="-24 -34 10" data-voo="0.05 0.84"></span>A Academia Paes Landim nasceu com uma metodologia de atendimento de verdade no Lourival Parente: acompanhamento de perto no salão, aulas coletivas que puxam o ritmo e estrutura pensada para você treinar com constância.
+    </h2>
+  </div>
+</section>
+
+
+    <section class="mod" id="modalidades" data-cena aria-labelledby="mod-titulo">
+  <div class="mod__palco" data-palco>
+    <div class="mod__quadro" data-passo-atual="0">
+      <h2 class="rotulo mod__rotulo" id="mod-titulo">Modalidades</h2>
+
+      <div class="mod__faixa" aria-hidden="true">
+        <div class="mod__nums">
+          <span class="mod__giga is-ativo"><span>01</span></span>
+          <span class="mod__giga"><span>02</span></span>
+          <span class="mod__giga"><span>03</span></span>
+        </div>
+        <div class="mod__nomes">
+          <span class="mod__giga is-ativo"><span>Força</span></span>
+          <span class="mod__giga"><span>Treino</span></span>
+          <span class="mod__giga"><span>Aulas</span></span>
+        </div>
+      </div>
+
+      <!-- a peça pousa aqui e troca de forma a cada modalidade (uma forma por passo, na ordem) -->
+      <span class="vaga vaga--mod" data-vaga="modalidades" data-formas="halter kettlebell bola" data-preso></span>
+
+      <div class="mod__baixo">
+        <div class="mod__textos">
+          <article class="mod__passo is-ativo">
+            <h3>Musculação</h3>
+            <p>Treino orientado com metodologia de atendimento. Acompanhamento próximo para você executar cada exercício com segurança e evoluir no seu ritmo.</p>
+          </article>
+          <article class="mod__passo">
+            <h3>Funcional</h3>
+            <p>Treinos dinâmicos de força, resistência e condicionamento em turmas manhã e noite, adaptados para quem está começando e para quem já treina.</p>
+          </article>
+          <article class="mod__passo">
+            <h3>Pilates, GAP, Jump e Abdominal</h3>
+            <p>Grade de aulas coletivas pensada para trabalhar postura, core, glúteos, pernas e gasto calórico com energia de turma.</p>
+          </article>
+        </div>
+        <div class="mod__listas">
+          <ul class="mod__lista is-ativo">
+            <li style="--i:0">Metodologia de atendimento</li>
+            <li style="--i:1">Acompanhamento no salão</li>
+            <li style="--i:2">Iniciantes e avançados</li>
+            <li style="--i:3">[preencher diferencial]</li>
+            <li style="--i:4">[preencher diferencial]</li>
+          </ul>
+          <ul class="mod__lista">
+            <li style="--i:0">Funcional manhã e noite</li>
+            <li style="--i:1">Condicionamento físico</li>
+            <li style="--i:2">Força e mobilidade</li>
+            <li style="--i:3">Acompanhamento de professor</li>
+            <li style="--i:4">[preencher diferencial]</li>
+          </ul>
+          <ul class="mod__lista">
+            <li style="--i:0">Pilates</li>
+            <li style="--i:1">Abdominal</li>
+            <li style="--i:2">GAP</li>
+            <li style="--i:3">Jump</li>
+            <li style="--i:4">Turmas manhã e noite</li>
+          </ul>
+        </div>
+        <div class="mod__nav">
+          <button class="mod__ir" type="button" data-ir="-1" aria-label="Modalidade anterior" disabled>
+            <svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M14 8H3M7 3.5 2.5 8 7 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Anterior</span>
+          </button>
+          <button class="mod__ir" type="button" data-ir="1" aria-label="Próxima modalidade">
+            <span>Próxima</span><svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="estrutura secao" id="estrutura">
+  <div class="miolo">
+    <header class="secao__cabeca estrutura__cabeca">
+      <h2 class="titulo"><span class="mascara"><span class="sobe">Estrutura pensada</span></span><span class="mascara"><span class="sobe" style="--i:1">para o seu treino</span></span></h2>
+      <span class="vaga vaga--estrutura" data-vaga="estrutura" data-forma="bola"></span>
+    </header>
+    <dl class="estrutura__numeros">
+      <div class="marco" style="--i:0"><dt>[preencher]</dt><dd>de área total (m²)</dd></div>
+      <div class="marco" style="--i:1"><dt>[preencher]</dt><dd>aparelhos e estações</dd></div>
+      <div class="marco" style="--i:2"><dt>[preencher]</dt><dd>salas de aulas coletivas</dd></div>
+      <div class="marco" style="--i:3"><dt>[preencher]</dt><dd>horário de funcionamento</dd></div>
+    </dl>
+  </div>
+</section>
+
+
+    <section class="planos secao" id="planos">
+  <div class="miolo">
+    <header class="secao__cabeca planos__cabeca">
+      <h2 class="titulo"><span class="mascara"><span class="sobe">Planos para</span></span><span class="mascara"><span class="sobe" style="--i:1">a sua rotina</span></span></h2>
+      <p class="secao__sub marco" style="--i:2">Consulte os valores atualizados e agende uma aula experimental antes de escolher.</p>
+      <span class="vaga vaga--planos" data-vaga="planos" data-forma="cadeado"></span>
+    </header>
+    <div class="planos__grade">
+      <article class="plano marco" style="--i:0">
+        <h3 class="plano__nome">[preencher plano 1]</h3>
+        <p class="plano__preco"><span>R$</span><b>[preencher]</b><span>/mês</span></p>
+        <p class="plano__nota">[preencher descrição curta do plano].</p>
+        <ul class="plano__lista">
+          <li>[preencher benefício 1]</li>
+          <li>[preencher benefício 2]</li>
+          <li>[preencher benefício 3]</li>
+        </ul>
+        <a class="botao botao--linha botao--largo" href="#contato" data-plano="Plano 1">Consultar plano</a>
+      </article>
+      <article class="plano plano--destaque marco" style="--i:1">
+        <p class="plano__selo">Mais escolhido</p>
+        <h3 class="plano__nome">[preencher plano 2]</h3>
+        <p class="plano__preco"><span>R$</span><b>[preencher]</b><span>/mês</span></p>
+        <p class="plano__nota">[preencher descrição curta do plano].</p>
+        <ul class="plano__lista">
+          <li>[preencher benefício 1]</li>
+          <li>[preencher benefício 2]</li>
+          <li>[preencher benefício 3]</li>
+          <li>[preencher benefício 4]</li>
+        </ul>
+        <a class="botao botao--cheio botao--largo" href="#contato" data-plano="Plano 2">Consultar plano</a>
+      </article>
+      <article class="plano marco" style="--i:2">
+        <h3 class="plano__nome">[preencher plano 3]</h3>
+        <p class="plano__preco"><span>R$</span><b>[preencher]</b><span>/mês</span></p>
+        <p class="plano__nota">[preencher descrição curta do plano].</p>
+        <ul class="plano__lista">
+          <li>[preencher benefício 1]</li>
+          <li>[preencher benefício 2]</li>
+          <li>[preencher benefício 3]</li>
+          <li>[preencher benefício 4]</li>
+        </ul>
+        <a class="botao botao--linha botao--largo" href="#contato" data-plano="Plano 3">Consultar plano</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <section class="horarios secao" id="horarios">
+  <div class="miolo horarios__miolo">
+    <header class="secao__cabeca horarios__cabeca">
+      <h2 class="titulo"><span class="mascara"><span class="sobe">A grade</span></span><span class="mascara"><span class="sobe" style="--i:1">da semana</span></span></h2>
+      <p class="secao__sub marco" style="--i:2">Confira os horários das aulas coletivas. Dúvidas ou reservas pelo WhatsApp da academia.</p>
+      <span class="vaga vaga--horarios" data-vaga="horarios" data-forma="cronometro"></span>
+    </header>
+    <div class="grade marco" style="--i:2">
+      <div class="grade__dias" role="tablist" aria-label="Dia da semana">
+        <button class="grade__dia" type="button" role="tab" data-dia="seg">Seg</button>
+        <button class="grade__dia" type="button" role="tab" data-dia="ter">Ter</button>
+        <button class="grade__dia" type="button" role="tab" data-dia="qua">Qua</button>
+        <button class="grade__dia" type="button" role="tab" data-dia="qui">Qui</button>
+        <button class="grade__dia" type="button" role="tab" data-dia="sex">Sex</button>
+        <button class="grade__dia" type="button" role="tab" data-dia="sab">Sáb</button>
+      </div>
+      <ol class="grade__aulas" role="tabpanel" aria-live="polite"></ol>
+    </div>
+  </div>
+</section>
+
+
+    <section class="depoimentos secao" id="depoimentos">
+  <div class="miolo">
+    <header class="secao__cabeca depoimentos__cabeca">
+      <h2 class="titulo"><span class="mascara"><span class="sobe">Quem treina aqui,</span></span><span class="mascara"><span class="sobe" style="--i:1">fica</span></span></h2>
+      <span class="vaga vaga--depoimentos" data-vaga="depoimentos" data-forma="kettlebell" data-pose="-10 -30 8"></span>
+    </header>
+    <div class="depoimentos__grade">
+      <figure class="fala marco" style="--i:0">
+        <blockquote>[preencher depoimento real de aluno, com autorização]</blockquote>
+        <figcaption><b>[preencher nome]</b><span>[preencher tempo de aluno]</span></figcaption>
+      </figure>
+      <figure class="fala marco" style="--i:1">
+        <blockquote>[preencher depoimento real de aluno, com autorização]</blockquote>
+        <figcaption><b>[preencher nome]</b><span>[preencher tempo de aluno]</span></figcaption>
+      </figure>
+      <figure class="fala marco" style="--i:2">
+        <blockquote>[preencher depoimento real de aluno, com autorização]</blockquote>
+        <figcaption><b>[preencher nome]</b><span>[preencher tempo de aluno]</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+
+    <section class="duvidas secao" id="duvidas">
+  <div class="miolo duvidas__miolo">
+    <header class="secao__cabeca duvidas__cabeca">
+      <h2 class="titulo"><span class="mascara"><span class="sobe">Antes</span></span><span class="mascara"><span class="sobe" style="--i:1">de vir</span></span></h2>
+      <span class="vaga vaga--duvidas" data-vaga="duvidas" data-forma="halter" data-pose="8 -22 -30"></span>
+    </header>
+    <div class="duvidas__lista">
+      <details class="duvida marco" style="--i:0" open>
+        <summary><span>Como funciona a aula experimental?</span><i aria-hidden="true"></i></summary>
+        <div class="duvida__corpo"><p>Você escolhe a modalidade e o período pelo formulário abaixo e um dos nossos consultores entra em contato pelo WhatsApp para confirmar o melhor horário.</p></div>
+      </details>
+      <details class="duvida marco" style="--i:1">
+        <summary><span>Onde fica a Academia Paes Landim?</span><i aria-hidden="true"></i></summary>
+        <div class="duvida__corpo"><p>Estamos na Avenida 19 de Outubro, 1489, no bairro Lourival Parente, Teresina - PI (CEP 64022-132).</p></div>
+      </details>
+      <details class="duvida marco" style="--i:2">
+        <summary><span>Nunca treinei. Posso começar?</span><i aria-hidden="true"></i></summary>
+        <div class="duvida__corpo"><p>Sim. Nossa metodologia de atendimento acompanha quem está começando do zero e quem já treina, respeitando o seu nível e objetivo.</p></div>
+      </details>
+      <details class="duvida marco" style="--i:3">
+        <summary><span>Quais aulas coletivas estão disponíveis?</span><i aria-hidden="true"></i></summary>
+        <div class="duvida__corpo"><p>Na grade temos aulas como Funcional, Pilates, Abdominal, GAP e Jump, em turmas de manhã e à noite. Consulte a grade completa no WhatsApp.</p></div>
+      </details>
+      <details class="duvida marco" style="--i:4">
+        <summary><span>Quais são os planos e horários de funcionamento?</span><i aria-hidden="true"></i></summary>
+        <div class="duvida__corpo"><p>[preencher política de planos, matrícula e horários de funcionamento da academia]</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+    <section class="contato secao" id="contato" data-fecho>
+  <div class="miolo contato__miolo">
+    <header class="contato__cabeca">
+      <h2 class="titulo contato__titulo"><span class="mascara"><span class="sobe">A primeira aula</span></span><span class="mascara"><span class="sobe" style="--i:1">é por nossa conta</span></span></h2>
+      <p class="secao__sub marco" style="--i:2">Escolha a modalidade e o período. A gente confirma o horário pelo WhatsApp no mesmo dia.</p>
+      <span class="vaga vaga--contato" data-vaga="contato" data-forma="anilha" data-pose="-12 24 0" data-voo="0.6 1"></span>
+    </header>
+    <form class="pedido marco" style="--i:2" novalidate>
+      <div class="pedido__campos">
+        <label class="campo">
+          <span class="campo__rotulo">Seu nome</span>
+          <input type="text" name="nome" autocomplete="name" required placeholder="Como a gente chama você">
+          <span class="campo__erro" aria-live="polite"></span>
+        </label>
+        <label class="campo">
+          <span class="campo__rotulo">WhatsApp</span>
+          <input type="tel" name="whatsapp" autocomplete="tel" inputmode="tel" required placeholder="(00) 00000-0000">
+          <span class="campo__erro" aria-live="polite"></span>
+        </label>
+        <fieldset class="escolha">
+          <legend class="campo__rotulo">Modalidade</legend>
+          <div class="escolha__opcoes">
+            <label><input type="radio" name="modalidade" value="Musculação" checked><span>Musculação</span></label>
+            <label><input type="radio" name="modalidade" value="Funcional"><span>Funcional</span></label>
+            <label><input type="radio" name="modalidade" value="Aulas coletivas"><span>Coletivas</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="escolha">
+          <legend class="campo__rotulo">Período</legend>
+          <div class="escolha__opcoes">
+            <label><input type="radio" name="periodo" value="Manhã" checked><span>Manhã</span></label>
+            <label><input type="radio" name="periodo" value="Tarde"><span>Tarde</span></label>
+            <label><input type="radio" name="periodo" value="Noite"><span>Noite</span></label>
+          </div>
+        </fieldset>
+        <button class="botao botao--cheio botao--largo" type="submit">Agendar aula experimental<svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+      </div>
+      <div class="pedido__feito" role="status" aria-hidden="true">
+        <p class="pedido__feito-titulo">Pedido anotado</p>
+        <p class="pedido__feito-texto">A gente chama você no WhatsApp para confirmar o horário.</p>
+        <button class="elo pedido__de-novo" type="button"><span>Fazer outro pedido</span></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="rodape">
+  <div class="rodape__colunas">
+    <div>
+      <p class="rotulo">Endereço</p>
+      <p>Av. 19 de Outubro, 1489<br>Lourival Parente · Teresina - PI<br>CEP 64022-132</p>
+    </div>
+    <div>
+      <p class="rotulo">Horário</p>
+      <p>[preencher horário de funcionamento]</p>
+    </div>
+    <div>
+      <p class="rotulo">Fale com a gente</p>
+      <p><a class="rodape__elo" href="https://wa.me/message/L22BVTICHGGOM1" target="_blank" rel="noopener">WhatsApp</a><br><a class="rodape__elo" href="https://www.instagram.com/academiapaeslandim/" target="_blank" rel="noopener">@academiapaeslandim</a></p>
+    </div>
+    <nav aria-label="Rodapé">
+      <p class="rotulo">Na página</p>
+      <p><a class="rodape__elo" href="#modalidades">Modalidades</a><br><a class="rodape__elo" href="#planos">Planos</a><br><a class="rodape__elo" href="#horarios">Horários</a></p>
+    </nav>
+  </div>
+  <p class="rodape__nome" aria-hidden="true"><span>Paes Landim</span><span class="vaga vaga--rodape" data-vaga="rodape" data-forma="anilha" data-pose="-6 14 0"></span></p>
+  <p class="rodape__direitos">© 2026 Academia Paes Landim</p>
+</footer>
+
+
+  <!-- a peça 3D: um canvas só, por cima da página inteira, sem roubar clique -->
+  <canvas class="peca" aria-hidden="true"></canvas>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<section class="mod" id="modalidades" data-cena aria-labelledby="mod-titulo">
+  <div class="mod__palco" data-palco>
+    <div class="mod__quadro" data-passo-atual="0">
+      <h2 class="rotulo mod__rotulo" id="mod-titulo">Modalidades</h2>
+
+      <div class="mod__faixa" aria-hidden="true">
+        <div class="mod__nums">
+          <span class="mod__giga is-ativo"><span>01</span></span>
+          <span class="mod__giga"><span>02</span></span>
+          <span class="mod__giga"><span>03</span></span>
+        </div>
+        <div class="mod__nomes">
+          <span class="mod__giga is-ativo"><span>Força</span></span>
+          <span class="mod__giga"><span>Treino</span></span>
+          <span class="mod__giga"><span>Aulas</span></span>
+        </div>
+      </div>
+
+      <!-- a peça pousa aqui e troca de forma a cada modalidade (uma forma por passo, na ordem) -->
+      <span class="vaga vaga--mod" data-vaga="modalidades" data-formas="halter kettlebell bola" data-preso></span>
+
+      <div class="mod__baixo">
+        <div class="mod__textos">
+          <article class="mod__passo is-ativo">
+            <h3>Musculação</h3>
+            <p>Treino orientado com metodologia de atendimento. Acompanhamento próximo para você executar cada exercício com segurança e evoluir no seu ritmo.</p>
+          </article>
+          <article class="mod__passo">
+            <h3>Funcional</h3>
+            <p>Treinos dinâmicos de força, resistência e condicionamento em turmas manhã e noite, adaptados para quem está começando e para quem já treina.</p>
+          </article>
+          <article class="mod__passo">
+            <h3>Pilates, GAP, Jump e Abdominal</h3>
+            <p>Grade de aulas coletivas pensada para trabalhar postura, core, glúteos, pernas e gasto calórico com energia de turma.</p>
+          </article>
+        </div>
+        <div class="mod__listas">
+          <ul class="mod__lista is-ativo">
+            <li style="--i:0">Metodologia de atendimento</li>
+            <li style="--i:1">Acompanhamento no salão</li>
+            <li style="--i:2">Iniciantes e avançados</li>
+            <li style="--i:3">[preencher diferencial]</li>
+            <li style="--i:4">[preencher diferencial]</li>
+          </ul>
+          <ul class="mod__lista">
+            <li style="--i:0">Funcional manhã e noite</li>
+            <li style="--i:1">Condicionamento físico</li>
+            <li style="--i:2">Força e mobilidade</li>
+            <li style="--i:3">Acompanhamento de professor</li>
+            <li style="--i:4">[preencher diferencial]</li>
+          </ul>
+          <ul class="mod__lista">
+            <li style="--i:0">Pilates</li>
+            <li style="--i:1">Abdominal</li>
+            <li style="--i:2">GAP</li>
+            <li style="--i:3">Jump</li>
+            <li style="--i:4">Turmas manhã e noite</li>
+          </ul>
+        </div>
+        <div class="mod__nav">
+          <button class="mod__ir" type="button" data-ir="-1" aria-label="Modalidade anterior" disabled>
+            <svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M14 8H3M7 3.5 2.5 8 7 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Anterior</span>
+          </button>
+          <button class="mod__ir" type="button" data-ir="1" aria-label="Próxima modalidade">
+            <span>Próxima</span><svg class="seta" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
